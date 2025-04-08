@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.ws-header {
+  text-align: center;
+  background: linear-gradient(to right, #0052a5, #00a9ff);
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.ws-header h1 {
+  font-size: 2.5em;
+  margin: 0 0 10px;
+}
+
+.ws-header p {
+  font-size: 1.2em;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.ws-cta {
+  margin-top: 20px;
+  margin-bottom: 0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.ws-cta:hover {
+  background-color: #cc7a00;
+}
+
+.writing-services {
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.writing-services h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.writing-services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.service-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin-bottom: 0;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+/* Grid Layout for Scripts */
+.scripts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 0;
+}
+
+/* Script Writing Page Styling */
+.scripts-container {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 0;
+}
+
+.scripts-container h1 {
+  font-size: 2.5em;
+  color: #00264d;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+/* Individual Script Div */
+.script {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin-top: 0;
+}
+
+.script:hover {
+  transform: translateY(-5px);
+}
+
+/* Video Thumbnail Styling */
+.video-thumbnail {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.video-thumbnail iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Script Details */
+.script-details {
+  padding: 15px;
+  text-align: left;
+}
+
+.script-details h3 {
+  font-size: 1.5em;
+  color: #00264d;
+  margin-bottom: 10px;
+}
+
+.script-details p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.script-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.script-btn:hover {
+  background-color: #cc7a00;
+}

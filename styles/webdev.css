@@ -1,0 +1,195 @@
+/* Web Development Header Section */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.webdev-header {
+  padding: 50px 20px;
+  background: linear-gradient(to right, #1e3c72, #4a90e2);
+  color: #fff;
+  text-align: center;
+}
+
+.webdev-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.webdev-header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.webdev-cta {
+  padding: 10px 30px;
+  background-color: #f39c12;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.webdev-cta:hover {
+  background-color: #e67e22;
+}
+
+/* Web Development Services Section */
+.webdev-services {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.webdev-services h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.webdev-services-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #4a90e2;
+}
+
+.service-card p {
+  color: #666;
+}
+
+/* Recent Projects Section */
+.webdev-projects {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.webdev-projects h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.project-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  padding: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.project-card p {
+  padding: 0 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.view-project-btn {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #1e3c72;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.view-project-btn:hover {
+  background-color: #357ab8;
+}
+
+.portfolio-section {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-bottom: 50px;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-item h3 {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+.portfolio-item p {
+  padding: 0 15px;
+  font-size: 1em;
+  color: #666;
+}
+
+.view-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00264d;
+  color: #fff;
+  border-radius: 5px;
+  margin: 15px 0;
+  text-decoration: none;
+}
+
+.view-link:hover {
+  background-color: #004080;
+}
+

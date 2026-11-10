@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+
 export default function Projects() {
   return (
     <main className="pt-26 p-6">
@@ -15,11 +16,13 @@ export default function Projects() {
             className="h-auto w-full"
           />
           <div className="">
-            <h2 className=" text-cyan-400 text-4xl mt-2">Futro</h2>
+            <h2 className=" text-blue-600 text-4xl mt-2">Futro</h2>
             <p className="mt-2">FUTRO is an all-in-one digital ecosystem built for students of the Federal University of Technology Owerri (FUTO).
               It combines shopping, errands, campus deliveries, and student-powered commerce into one seamless digital experience.
             </p>
-           <h3 className="mt-2 ">Visit site</h3>
+           <button className=" mt-2 rounded-full border border-blue-600 p-2 text-white">
+              <h3 className="transition-colors duration-200 hover:text-blue-600 dark:hover:text-blue-400 text-2xl">Visit site</h3>
+            </button>
           </div>
         </article>
         </Link>
@@ -33,11 +36,13 @@ export default function Projects() {
             className="h-auto w-full"
           />
           <div className="">
-            <h2 className=" text-cyan-400 text-4xl mt-2">OppPlanet</h2>
+            <h2 className=" text-blue-600 text-4xl mt-2">OppPlanet</h2>
             <p className="mt-2">OppPlanet is a growing community that connects people with life-changing opportunities — from jobs and internships to scholarships, grants, tech programs, fellowships, and career growth resources. We bridge the gap between talented individuals and opportunities that help them learn, grow, and succeed. 
               OppPlanet is currently WhatsApp-Channel only.
             </p>
-            <h3 className="mt-2">Visit site</h3>
+            <button className=" mt-2 rounded-full border border-blue-600 p-2 text-white">
+              <h3 className="transition-colors duration-200 hover:text-blue-600 dark:hover:text-blue-400 text-2xl">Visit site</h3>
+            </button>
           </div>
         </article>
         </Link>

@@ -27,7 +27,9 @@ export default function AboutPage() {
 
         <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm text-gray-600 dark:text-gray-400">
           
-          <Link href="/contact">
+          <Link href="/contact" 
+            className="transition-colors duration-200 hover:text-blue-600 dark:hover:text-blue-400"
+          >
             Form
           </Link>
 

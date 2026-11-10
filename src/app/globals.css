@@ -24,3 +24,28 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes glow {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(35px, -25px);
+  }
+}
+
+.animate-glow {
+  animation: glow 12s ease-in-out infinite;
+}
+
+.animate-glow-reverse {
+  animation: glow 15s ease-in-out infinite reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-glow,
+  .animate-glow-reverse {
+    animation: none;
+  }
+}

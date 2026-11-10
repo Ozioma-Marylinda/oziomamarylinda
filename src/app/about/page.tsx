@@ -4,7 +4,13 @@ import Link from "next/link"
 export default function AboutPage() {
   return (
     <main className="pt-26 p-6">
-      <section className="grid grid-cols-2 pt-6">
+      <section className="relative isolate flex min-h-screen items-center justify-center overflow-hidden bg-[#0B0D14] px-6">
+    <div className="pointer-events-none absolute inset-0">
+      <div className="animate-glow absolute -left-40 top-20 h-96 w-96 rounded-full bg-blue-600/20 blur-[120px]" />
+      <div className="animate-glow-reverse absolute -right-40 bottom-10 h-96 w-96 rounded-full bg-violet-600/15 blur-[120px]" />
+    </div>
+
+ <section className="grid grid-cols-2 pt-6">
         
         <article className="flex flex-col items-start gap-4 overflow-hidden rounded-xl p-4">
           <div className="space-y-4 text-base leading-7 text-gray-600 dark:text-gray-300">
@@ -76,6 +82,10 @@ export default function AboutPage() {
           />
        </article>
       </section>
+  <div className="relative z-10 text-center">
+   
+  </div>
+</section>
     </main>
   )
 }
